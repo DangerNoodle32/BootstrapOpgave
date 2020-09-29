@@ -1,5 +1,7 @@
 /* Her har vi styles til vores grundlæggende setup og mobil */
 /* ------------------------------------------------------------- */
+$purple: #8A0BDB;
+
 
 * { /* Gælder alt på hele siden */
 	box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
@@ -29,6 +31,7 @@ ul, ol {
 
 li {
 	margin: 0; /* Ingen ydre margen fra listpunkter */
+	border: none !important;
 }
 
 p {
@@ -61,4 +64,32 @@ img {
 
 .text-center{
 	border-width: 50px;
+}
+
+.border-style {
+	border-width: 5px !important;
+	border-color: #8A0BDB !important;
+}
+
+.btn-speciel {
+	border: none !important;
+	background-color: white !important;
+	color: black !important;
+}
+
+
+.white-txt {
+	color: white !important;
+}
+
+.black-txt {
+	color: black !important;
+}
+
+.lilla-txt {
+	color: $purple !important;
+}
+
+.txt_reg {
+	font-size: normal;
 }
