@@ -93,3 +93,12 @@ img {
 .txt_reg {
 	font-size: medium;
 }
+
+.overlay-div{
+	height:100%;
+	width: 100%;
+	position: absolute;
+	background-blend-mode: soft-light;
+	background-color: #9800f9;
+	opacity:.5;
+}
